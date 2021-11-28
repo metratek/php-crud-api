@@ -3975,7 +3975,7 @@ namespace Tqdev\PhpCrudApi\Column\Reflection {
             // set primary key
             $columnName = false;
             if ($type == 'view') {
-                $columnName = 'id';
+                $columnName = 'ID';
             } else {
                 $columnNames = $reflection->getTablePrimaryKeys($name);
                 if (count($columnNames) == 1) {
